@@ -1,14 +1,14 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23574928&assignment_repo_type=AssignmentRepo)
 # Day 10 Lab: Data Pipeline & Data Observability
 
-**Student Email:** email@example.com
-**Name:** (Dien ten cua ban)
+**Student Email:** quangdong010203@gmail.com
+**Name:** Dương Quang Đông
 
 ---
 
 ## Mo ta
 
-(Mo ta ngan gon bai lab va nhung gi ban da lam)
+Bài lab mô phỏng agent trả lời câu hỏi dựa trên 2 kiểu dữ liệu chưa được và đã được làm sạch, chuẩn hoá 
 
 ---
 
@@ -26,7 +26,7 @@ python solution.py
 
 ### Chay Agent Simulation (Stress Test)
 ```bash
-# Mo ta cach ban chay thi nghiem Clean vs Garbage data
+Mô phỏng input người dùng với câu hỏi What is the best electronic product?, agent mô phỏng sẽ trả lời với sản phẩm electronic có giá lớn nhất.
 ```
 
 ---
@@ -44,4 +44,4 @@ python solution.py
 
 ## Ket qua
 
-(Tom tat ket qua: bao nhieu records da xu ly, bao nhieu bi loai, v.v.)
+Dữ liệu garbage có tổng cộng 5 mẫu dữ liệu, sau làm sạch loại bỏ 2 mẫu dữ liệu bị lặp id và thiếu trường được 3 mẫu dữ liệu sạch.

@@ -1,8 +1,8 @@
 # Experiment Report: Data Quality Impact on AI Agent
 
-**Student ID:** AI20K-XXXX
-**Name:** (Dien ten cua ban)
-**Date:** (Dien ngay thuc hien)
+**Student ID:** AI20K-2A202600445
+**Name:** Dương Quang Đông
+**Date:** 15/4/2026
 
 ---
 
@@ -12,8 +12,8 @@ Chay `agent_simulation.py` voi 2 bo du lieu va ghi lai ket qua:
 
 | Scenario | Agent Response | Accuracy (1-10) | Notes |
 |----------|----------------|-----------------|-------|
-| Clean Data (`processed_data.csv`) | (Ghi cau tra loi cua Agent) | | |
-| Garbage Data (`garbage_data.csv`) | (Ghi cau tra loi cua Agent) | | |
+| Clean Data (`processed_data.csv`) |  Based on my data, the best choice is Laptop at $1200. | 10 | |
+| Garbage Data (`garbage_data.csv`) | Based on my data, the best choice is Nuclear Reactor at $999999. | 1 | Dữ liệu không sạch |
 
 ---
 
@@ -21,10 +21,7 @@ Chay `agent_simulation.py` voi 2 bo du lieu va ghi lai ket qua:
 
 ### Tai sao Agent tra loi sai khi dung Garbage Data?
 
-(Viet nhan xet cua ban o day — it nhat 50 tu)
-
-(Hay phan tich cac van de nhu Duplicate IDs, wrong data types, outliers, null values
-va giai thich tai sao chung anh huong den ket qua cua Agent.)
+Khi dùng garbage data, mẫu dữ liệu Nuclear Reactor nằm trong thoả mãn yêu cầu truy xuất của dữ liệu, dù không thực tế, agent lựa chọn loại electronics với giá cao nhất chính là Nuclear Reactor.
 
 ---
 
@@ -32,4 +29,4 @@ va giai thich tai sao chung anh huong den ket qua cua Agent.)
 
 **Quality Data > Quality Prompt?** (Dong y hay khong? Giai thich ngan gon.)
 
-(Viet ket luan cua ban o day)
+Quality Prompt giúp kiểm soát tốt agent và cách xử lý, truy xuất và trả lời câu hỏi của sản phẩm xong nếu dữ liệu không được làm sạch dù agent có prompt tốt vẫn sẽ dựa trên dữ liệu sai mà trả lời sai.
